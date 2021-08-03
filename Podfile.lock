@@ -1,0 +1,30 @@
+PODS:
+  - EasySwiftLayout (1.6.1)
+  - IQKeyboardManager (6.5.6)
+  - Realm (10.11.0):
+    - Realm/Headers (= 10.11.0)
+  - Realm/Headers (10.11.0)
+  - RealmSwift (10.11.0):
+    - Realm (= 10.11.0)
+
+DEPENDENCIES:
+  - EasySwiftLayout
+  - IQKeyboardManager
+  - RealmSwift
+
+SPEC REPOS:
+  trunk:
+    - EasySwiftLayout
+    - IQKeyboardManager
+    - Realm
+    - RealmSwift
+
+SPEC CHECKSUMS:
+  EasySwiftLayout: 653913ce66b3595f05a662af37c435a8d58a9a0b
+  IQKeyboardManager: 2a6e97afdafc7becf0cb17a9a8d795e3a980717f
+  Realm: 39ff23f0f709cd4ed93eb47ee6593c2158945b38
+  RealmSwift: 42713e09a8631070d6c12c3c5fb22b8edc1daa41
+
+PODFILE CHECKSUM: a15b94a3a99298ffd013f344c5348e4668469085
+
+COCOAPODS: 1.10.2
