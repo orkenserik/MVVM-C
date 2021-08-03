@@ -23,10 +23,6 @@ extension GiphyViewModel {
         let selectedGif = Gif()
         selectedGif.searchText = searchText
         selectedGif.imageURL = item.images.downsized.url
-        if let imageURL = UIImage.gifImageWithURL(item.images.downsized.url) {
-            let data = NSData(data: imageURL.jpegData(compressionQuality: 0.9)!)
-            selectedGif.imageData = data
-        }
         
         let realm = try! Realm()
         try! realm.write {

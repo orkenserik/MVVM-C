@@ -41,13 +41,8 @@ class GifCell : UICollectionViewCell {
 extension GifCell {
     func setCell(_ item: Gif) {
         gifsName.text = item.searchText
-        let data = item.imageData
-        if !item.imageData.isEmpty {
-            photoImageView.image = UIImage(data: data as Data)
-        }else {
-            let imageURL = UIImage.gifImageWithURL(item.imageURL)
-            photoImageView.image = imageURL
-        }
+        let imageURL = UIImage.gifImageWithURL(item.imageURL)
+        photoImageView.image = imageURL
     }
 }
 

@@ -12,7 +12,6 @@ import RealmSwift
 final class Gif: Object {
     @objc dynamic var searchText: String = ""
     @objc dynamic var imageURL: String = ""
-    @objc dynamic var imageData: NSData = NSData()
 }
 
 //MARK: - Aciton
